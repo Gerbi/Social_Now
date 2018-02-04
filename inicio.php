@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Login Page - Now Ui Kit by Creative Tim</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="../assets/css/demo.css" rel="stylesheet" />
+    <link href="assets/css/demo.css" rel="stylesheet" />
 </head>
 
 <body class="login-page sidebar-collapse">
@@ -49,7 +49,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+        <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Back to Kit</a>
@@ -81,7 +81,7 @@
 </nav>
 <!-- End Navbar -->
 <div class="page-header" filter-color="orange">
-    <div class="page-header-image" style="background-image:url(../assets/img/login.jpg)"></div>
+    <div class="page-header-image" style="background-image:url(assets/img/login.jpg)"></div>
     <div class="container">
         <div class="col-md-4 content-center">
             <div class="card card-login card-plain">
@@ -126,26 +126,7 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://presentation.creative-tim.com">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://blog.creative-tim.com">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                            MIT License
-                        </a>
-                    </li>
+
                 </ul>
             </nav>
             <div class="copyright">
@@ -153,8 +134,8 @@
                 <script>
                     document.write(new Date().getFullYear())
                 </script>, Designed by
-                <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                <a href="" target="_blank">Oryx Development</a>. Coded by
+                <a href="https://t.me/gerbi" target="_blank">Gerbi Gomez</a>.
             </div>
         </div>
     </footer>
