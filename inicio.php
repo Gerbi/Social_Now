@@ -24,7 +24,7 @@
     <div class="container">
 
         <div class="navbar-translate">
-            <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+            <a class="navbar-brand" href="#" rel="tooltip" title="Designed by Oryx" data-placement="bottom" target="_blank">
                 Now Ui Kit
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,26 +35,21 @@
         </div>
         <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
             <ul class="navbar-nav">
+
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Back to Kit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">Have an issue?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/gerbi_xD" target="_blank">
                         <i class="fa fa-twitter"></i>
                         <p class="d-lg-none d-xl-none">Twitter</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/gerbi.gomez" target="_blank">
                         <i class="fa fa-facebook-square"></i>
                         <p class="d-lg-none d-xl-none">Facebook</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/Gerbi_xD" target="_blank">
                         <i class="fa fa-instagram"></i>
                         <p class="d-lg-none d-xl-none">Instagram</p>
                     </a>
@@ -80,28 +75,24 @@
                                 <span class="input-group-addon">
                                     <i class="now-ui-icons users_circle-08"></i>
                                 </span>
-                            <input type="text" class="form-control" placeholder="First Name...">
+                            <input type="text" class="form-control" placeholder="Email..">
                         </div>
                         <div class="input-group form-group-no-border input-lg">
                                 <span class="input-group-addon">
                                     <i class="now-ui-icons text_caps-small"></i>
                                 </span>
-                            <input type="text" placeholder="Last Name..." class="form-control" />
+                            <input type="text" placeholder="Password" class="form-control" />
                         </div>
                     </div>
                     <div class="footer text-center">
-                        <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Get Started</a>
+                        <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Login</a>
                     </div>
                     <div class="pull-left">
                         <h6>
                             <a href="#pablo" class="link">Create Account</a>
                         </h6>
                     </div>
-                    <div class="pull-right">
-                        <h6>
-                            <a href="#pablo" class="link">Need Help?</a>
-                        </h6>
-                    </div>
+
                 </form>
             </div>
         </div>
