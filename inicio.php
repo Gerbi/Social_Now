@@ -6,9 +6,11 @@
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Login Page - Now Ui Kit by Creative Tim</title>
+    <title>Login Page - Social Network</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
@@ -60,28 +62,30 @@
 </nav>
 <!-- End Navbar -->
 <div class="page-header" filter-color="orange">
-    <div class="page-header-image" style="background-image:url(assets/img/login.jpg)"></div>
+    <div class="page-header-image" style="background-image:url('assets/img/login.jpg')"></div>
     <div class="container">
         <div class="col-md-4 content-center">
             <div class="card card-login card-plain">
                 <form class="form" method="" action="">
                     <div class="header header-primary text-center">
                         <div class="logo-container">
-                            <img src="../assets/img/now-logo.png" alt="">
+                            <img src="assets/img/now-logo.png" alt="">
                         </div>
                     </div>
                     <div class="content">
                         <div class="input-group form-group-no-border input-lg">
                                 <span class="input-group-addon">
-                                    <i class="now-ui-icons users_circle-08"></i>
+                                    <div data-icon="ei-user" data-size="s"></div><!--
+                                    <i class="now-ui-icons users_circle-08"></i>-->
                                 </span>
                             <input type="text" class="form-control" placeholder="Email..">
                         </div>
                         <div class="input-group form-group-no-border input-lg">
+
                                 <span class="input-group-addon">
-                                    <i class="now-ui-icons text_caps-small"></i>
+                                <div data-icon="ei-unlock" data-size="s"></div>
                                 </span>
-                            <input type="text" placeholder="Password" class="form-control" />
+                            <input type="password" placeholder="Password" class="form-control" />
                         </div>
                     </div>
                     <div class="footer text-center">
@@ -92,6 +96,10 @@
                             <a href="#pablo" class="link">Create Account</a>
                         </h6>
                     </div>
+                    <div data-icon="ei-user"></div>
+                    <div data-icon="ei-user" data-size="s"></div>
+                    <div data-icon="ei-check" data-size="m"></div>
+                    <div data-icon="ei-spinner" data-size="m"></div>
 
                 </form>
             </div>
