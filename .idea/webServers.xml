@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b6bf45a-0daf-4320-ac88-daa8a4033caa" name="Local" url="http://localhost/blog/now">
+        <fileTransfer port="0" mountedRoot="C:\Bitnami\wamp\apache2\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

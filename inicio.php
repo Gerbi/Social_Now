@@ -96,9 +96,7 @@
                             <a href="#pablo" class="link">Create Account</a>
                         </h6>
                     </div>
-                    <div data-icon="ei-user"></div>
-                    <div data-icon="ei-user" data-size="s"></div>
-                    <div data-icon="ei-check" data-size="m"></div>
+
                     <div data-icon="ei-spinner" data-size="m"></div>
 
                 </form>
