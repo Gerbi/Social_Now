@@ -101,8 +101,8 @@ if( isset($_POST['loginBtn']) ){
     </div>
 </nav>
 <!-- End Navbar -->
-<div class="page-header" filter-color="orange">
-    <div class="page-header-image" style="background-image:url('assets/img/login.jpg')"></div>
+<div class="page-header" filter-color="gray">
+    <div class="page-header-image" style="background-image:url('assets/img/bg4.jpg')"></div>
     <div class="container">
         <div class="col-md-4 content-center">
             <div class="card card-login card-plain">
@@ -113,27 +113,28 @@ if( isset($_POST['loginBtn']) ){
                         </div>
                     </div>
                     <div class="content">
-                        <div class="input-group form-group-no-border input-lg">
+                        <div class="input-group form-group-no-border input-lg" method="POST">
                             <span class="input-group-addon">
                                 <div data-icon="ei-user" data-size="s"></div><!--
                                     <i class="now-ui-icons users_circle-08"></i>-->
                             </span>
-                            <input type="text" class="form-control" placeholder="Email..">
+                            <input type="text" class="form-control" placeholder="Email.." name="email">
+                            <?=(( isset($email) )?$email:'')?>
                         </div>
                         <div class="input-group form-group-no-border input-lg">
 
                                 <span class="input-group-addon">
                                 <div data-icon="ei-unlock" data-size="s"></div>
                                 </span>
-                            <input type="password" placeholder="Password" class="form-control" />
+                            <input type="password" placeholder="Password" class="form-control" name="password" value="<?=(( isset($password) )?$password:'')?>" />
                         </div>
                     </div>
                     <div class="footer text-center">
-                        <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Login</a>
+                        <a href="" name="loginBtn" class="btn btn-primary btn-round btn-lg btn-block">Login</a>
                     </div>
                     <div class="pull-left">
                         <h6>
-                            <a href="#pablo" class="link">Create Account</a>
+                            <a href="" class="link">Create Account</a>
                         </h6>
                     </div>
 
