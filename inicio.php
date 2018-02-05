@@ -1,3 +1,45 @@
+<?php
+session_start();
+
+include("includes/config.php");
+
+
+
+$errors='';
+$success='';
+
+if( isset($_POST['loginBtn']) ){
+
+    $email = $_REQUEST['email'];
+    $password = $_REQUEST['password'];
+
+    if( empty($email) or empty($password) ){
+        $errors .= 'Please fill out all fields';
+    }else{
+
+        $select = mysqli_query($connection, "SELECT * FROM members WHERE email='$email' and password='$password' and activated='1'");
+
+        if( mysqli_num_rows($select)==1 ){
+
+            $result = mysqli_fetch_array($select);
+
+            $_SESSION['member_id'] = $result['id'];
+            $_SESSION['name'] = $result['name'];
+
+            header("Location: index.php");
+
+        }else{
+
+            $errors .= "Email and password combination does not match. <br /> OR You need to activate your account by going through activation link in your email box.";
+        }
+
+
+
+    }
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,9 +68,7 @@
     <div class="container">
 
         <div class="navbar-translate">
-            <a class="navbar-brand" href="#" rel="tooltip" title="Designed by Oryx" data-placement="bottom" target="_blank">
-                Now Ui Kit
-            </a>
+
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar bar1"></span>
                 <span class="navbar-toggler-bar bar2"></span>
@@ -74,10 +114,10 @@
                     </div>
                     <div class="content">
                         <div class="input-group form-group-no-border input-lg">
-                                <span class="input-group-addon">
-                                    <div data-icon="ei-user" data-size="s"></div><!--
+                            <span class="input-group-addon">
+                                <div data-icon="ei-user" data-size="s"></div><!--
                                     <i class="now-ui-icons users_circle-08"></i>-->
-                                </span>
+                            </span>
                             <input type="text" class="form-control" placeholder="Email..">
                         </div>
                         <div class="input-group form-group-no-border input-lg">
@@ -97,25 +137,19 @@
                         </h6>
                     </div>
 
-                    <div data-icon="ei-spinner" data-size="m"></div>
-
                 </form>
             </div>
         </div>
     </div>
     <footer class="footer">
         <div class="container">
-            <nav>
-                <ul>
 
-                </ul>
-            </nav>
             <div class="copyright">
                 &copy;
                 <script>
                     document.write(new Date().getFullYear())
                 </script>, Designed by
-                <a href="" target="_blank">Oryx Development</a>. Coded by
+                <a href="" target="_blank">Gerbi Code</a>. Coded by
                 <a href="https://t.me/gerbi" target="_blank">Gerbi Gomez</a>.
             </div>
         </div>
